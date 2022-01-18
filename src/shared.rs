@@ -420,7 +420,7 @@ pub struct SystemsInfoLocation {
     pub symbol: String,
     /// The type of this system location
     #[serde(rename = "type")]
-    pub systems_info_type: LocationType,
+    pub location_type: LocationType,
     /// The friendly name of the system location
     pub name: String,
     /// X coordinate of the system location
